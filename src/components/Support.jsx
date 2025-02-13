@@ -35,15 +35,15 @@ function Support() {
   };
 
   return (
-    <div className="w-full p-20 text-black text-center">
+    <div className="w-full p-5 md:p-20 text-black text-center">
       <h6 className="font-medium text-xl text-green-900">Help Those in Need</h6>
-      <h1 className="text-4xl mt-2 mb-20 font-medium">
+      <h1 className="md:text-4xl text-2xl mt-2 mb-10 md:mb-20 font-medium">
         Changing Lives with your Support
       </h1>
       <div className="slider-container">
         <Slider {...settings}>
           <div className="px-2">
-          <div className="  h-auto p-5 bg-[#cdea68] rounded-3xl text-black">
+          <div className=" h-[250px]  md:h-auto p-5 bg-[#cdea68] rounded-3xl text-black">
             <div className="flex flex-col items-center justify-center">
               <img
                 className="h-24 w-24"
@@ -57,7 +57,7 @@ function Support() {
           </div>
          
          <div cxlassName="px-2">
-         <div className=" h-auto p-5 bg-[#cdea68] rounded-3xl text-black">
+         <div className=" h-[250px]  md:h-auto p-5 bg-[#cdea68] rounded-3xl text-black">
             <div className="flex flex-col items-center justify-center">
               <img
                 className="h-24 w-24"
@@ -72,7 +72,7 @@ function Support() {
          </div>
         
         <div className="px-2">
-        <div className=" p-5 bg-[#cdea68] rounded-3xl text-black">
+        <div className="h-[250px]  md:h-auto p-5 bg-[#cdea68] rounded-3xl text-black">
             <div className="flex flex-col items-center justify-center">
               <img
                 className="h-24 w-24"
@@ -86,7 +86,7 @@ function Support() {
         </div>
          
           <div  className="pr-2" >
-          <div className=" p-5 bg-[#cdea68] rounded-3xl text-black">
+          <div className="h-[250px]  md:h-auto p-5 bg-[#cdea68] rounded-3xl text-black">
             <div className="flex flex-col items-center justify-center">
               <img
                 className="h-24 w-24"
@@ -99,7 +99,7 @@ function Support() {
           </div>
           </div>
 
-          <div className=" p-5 bg-[#cdea68] rounded-3xl text-black">
+          <div className="h-[250px]  md:h-auto p-5 bg-[#cdea68] rounded-3xl text-black">
             <div className="flex flex-col items-center justify-center">
               <img
                 className="h-24 w-24"

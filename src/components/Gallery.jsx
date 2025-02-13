@@ -34,8 +34,8 @@ const Gallery = () => {
     ],
   };
   return (
-    <div className="px-20  bg-white  py-10 flex gap-10">
-      <div className="w-[70%] p-5">
+    <div className="md:px-20 px-5  bg-white  py-10 md:flex gap-10">
+      <div className="md:w-[70%] w-full p-5">
         <h2 className="text-4xl mb-5 flex gap-5 w-full pb-5 border-b-[1px]  border-[#a1b562]">
           Our Gallery
         </h2>
@@ -95,7 +95,7 @@ const Gallery = () => {
           </button>
         </div>
       </div>
-      <div className="w-[30%] h-auto  p-5  shadow-xl bg-white rounded-md">
+      <div className=" w-full md:w-[30%] h-auto  p-5  shadow-xl bg-white rounded-md">
         <h2 className="text-4xl mb-4 flex gap-5 w-full pb-5 border-b-[1px]  border-[#000000]">
           Testimonials
         </h2>

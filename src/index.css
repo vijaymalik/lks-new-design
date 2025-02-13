@@ -47,8 +47,13 @@ margin: 0 10px;
   scale: 0.9;
 }
 
-
-
-.heroslider{
+.heroslider {
   height: 100% !important;
+}
+
+@media screen and (max-width: 768px) {
+ .eyes{
+  display: none;
+ }
+  
 }

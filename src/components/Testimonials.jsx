@@ -10,8 +10,8 @@ const Testimonials = () => {
      
         spaceBetween={50}
         slidesPerView={1}
-        onSlideChange={() => console.log("slide change")}
-        onSwiper={(swiper) => console.log(swiper)}
+        // onSlideChange={() => console.log("slide change")}
+        // onSwiper={(swiper) => console.log(swiper)}
         loop={true} // infinite loop
         autoplay={{
           delay: 2000, // slide change interval in ms

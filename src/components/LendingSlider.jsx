@@ -15,8 +15,7 @@ const LendingSlider = () => {
           crossFade: true,
         }}
         speed={2000} // slide transition duration in ms
-        onSlideChange={() => console.log("slide change")}
-        onSwiper={(swiper) => console.log(swiper)}
+       
         loop={true} // infinite loop for continuous slides
         autoplay={{
           delay: 1000, // slide change interval in ms
