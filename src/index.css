@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: icon;
+  src: url(./assets/icomoon.ttf);
+}
+
+@font-face {
+  font-family: founders;
+  src: url(./assets/FoundersGrotesk-Semibold.ttf);
+}
+
+@font-face {
+  font-family: neue;
+  src: url(./assets/NeueMontreal-Regular.ttf);
+}
+
+/* .slick-slide {
+margin: 0 10px;
+} */
+
+::-webkit-scrollbar {
+  display: none;
+}
+.navlinks a {
+  position: relative;
+  z-index: 99999999999;
+}
+
+.navlinks a:hover {
+  scale: 0.9;
+}
+
+.donate-btn {
+  background-color: #14532d;
+  color: #fff;
+  font-weight: 500;
+  font-size: 1rem;
+  border-radius: 20px;
+  cursor: pointer;
+  z-index: 999999999999;
+  padding: 10px 20px;
+}
+.donate-btn:hover {
+  scale: 0.9;
+}
+
+
+
+.heroslider{
+  height: 100% !important;
+}
