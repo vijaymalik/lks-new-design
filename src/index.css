@@ -57,3 +57,20 @@ margin: 0 10px;
  }
   
 }
+
+@media screen and (min-width: 1024px) and (max-width: 1458px) {
+  .heading-txt{
+    font-size: 80px !important;
+    line-height: 58px !important;
+  }
+  
+}
+@media screen and (min-width: 1024px) and (max-width: 1215px) {
+
+  .count-left{
+    width: 0 !important;
+  }
+  .count-right{
+    width: 100% !important;
+  }
+}

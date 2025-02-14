@@ -16,16 +16,16 @@ function About() {
     return selectedSection === section ? "bg-[#abd64a]" : " bg-[#c0e92c]";
   };
   return (
-    <div className="w-full relative z-10 p-5 md:p-20 bg-[#cdea68] rounded-tl-3xl rounded-tr-3xl text-black">
+    <div className="w-full relative z-10 p-5 lg:p-20 bg-[#cdea68] rounded-tl-3xl rounded-tr-3xl text-black">
       <h1 className="font-['neue'] text-2xl tracking-tight">
         Cataracts are a common eye condition where the natural lens of the eye
         becomes cloudy, leading to blurred vision and, if left untreated, can
         even cause blindness. Fortunately, cataract surgery is a highly
         effective procedure to restore vision and improve quality of life.
       </h1>
-      <div className="md:flex gap-5 w-full border-t-[1px] pt-10 mt-10 md:mt-20 border-[#a1b562]">
-        <div className="md:w-1/2  w-full">
-          <h1 className="text-3xl md:text-5xl">Our Programs:</h1>
+      <div className="lg:flex gap-5 w-full border-t-[1px] pt-10 mt-10 lg:mt-20 border-[#a1b562]">
+        <div className="lg:w-1/2  w-full">
+          <h1 className="text-3xl lg:text-5xl">Our Programs:</h1>
           <div
             className={`p-5  rounded-3xl mt-10 eye-care cursor-pointer ${sectionStyle(
               "eye-care"
@@ -68,7 +68,7 @@ function About() {
           </button>
         </div>
         {/* Image Section */}
-        <div className="md:w-1/2 w-full mt-10 md:mt-0 h-[40vh] md:h-[70vh] overflow-hidden rounded-3xl bg-[#a8c63b] about-right">
+        <div className="lg:w-1/2 w-full mt-10 lg:mt-0 h-[40vh] lg:h-[70vh] overflow-hidden rounded-3xl bg-[#a8c63b] about-right">
           <img
             className="h-full w-full object-cover"
             src={images[selectedSection]} // Dynamically set the image based on the selected section
