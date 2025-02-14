@@ -14,7 +14,7 @@ function Navbar() {
       <div className="logo">
         <img
           className="h-12 w-34 ml-[-20px] md:ml-0"
-          src="/assets/LOK-removebg-preview.png"
+          src="/assets/logo_1.png"
           alt="Logo"
         />
       </div>

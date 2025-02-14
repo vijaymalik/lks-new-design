@@ -30,7 +30,7 @@ const Footer = () => {
           <div>
             <img
               className="h-20 w-34  ml-[-35px]"
-              src="/assets/LOK-removebg-preview.png"
+              src="/assets/logo_1.png"
               alt=""
             />
             <p className="text-gray-200 mt-8">

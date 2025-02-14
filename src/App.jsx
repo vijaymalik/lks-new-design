@@ -9,6 +9,7 @@ import Support from "./components/Support";
 import Count from "./components/Count";
 import Gallery from "./components/Gallery";
 import Footer from "./components/Footer";
+import News from "./components/News";
 
 function App() {
   const locomotiveScroll = new LocomotiveScroll();
@@ -17,11 +18,12 @@ function App() {
     <div className="w-full h-screen ">
       <Navbar />
       <Lending />
-      <Marque />
+      <News />
       <About />
       <Support />
       <Eyes />
       <Count />
+      <Marque />
       <Gallery/>
       <Footer />
     </div>
