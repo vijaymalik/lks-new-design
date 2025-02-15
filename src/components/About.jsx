@@ -16,7 +16,7 @@ function About() {
     return selectedSection === section ? "bg-[#abd64a]" : " bg-[#c0e92c]";
   };
   return (
-    <div className="w-full relative z-10 p-5 lg:p-20 bg-[#cdea68] rounded-tl-3xl rounded-tr-3xl text-black">
+    <div className="w-full relative z-10 p-5 lg:p-20 bg-[#cdea68]  text-black">
       <h1 className="font-['neue'] text-2xl tracking-tight">
         Cataracts are a common eye condition where the natural lens of the eye
         becomes cloudy, leading to blurred vision and, if left untreated, can
