@@ -43,7 +43,7 @@ function Support() {
       <div className="slider-container">
         <Slider {...settings}>
           <div className="px-2">
-          <div className=" h-[250px]   p-5 bg-[#cdea68] rounded-3xl text-black">
+          <div className=" h-[250px] hover:bg-[#abd64a]  p-5 bg-[#cdea68] rounded-3xl text-black">
             <div className="flex flex-col items-center justify-center">
               <img
                 className="h-24 w-24"
@@ -57,7 +57,7 @@ function Support() {
           </div>
          
          <div cxlassName="px-2">
-         <div className=" h-[250px]   p-5 bg-[#cdea68] rounded-3xl text-black">
+         <div className=" h-[250px] hover:bg-[#abd64a]  p-5 bg-[#cdea68] rounded-3xl text-black">
             <div className="flex flex-col items-center justify-center">
               <img
                 className="h-24 w-24"
@@ -72,7 +72,7 @@ function Support() {
          </div>
         
         <div className="px-2">
-        <div className="h-[250px]   p-5 bg-[#cdea68] rounded-3xl text-black">
+        <div className="h-[250px] hover:bg-[#abd64a]   p-5 bg-[#cdea68] rounded-3xl text-black">
             <div className="flex flex-col items-center justify-center">
               <img
                 className="h-24 w-24"
@@ -86,7 +86,7 @@ function Support() {
         </div>
          
           <div  className="pr-2" >
-          <div className="h-[250px]   p-5 bg-[#cdea68] rounded-3xl text-black">
+          <div className="h-[250px]  hover:bg-[#abd64a]  p-5 bg-[#cdea68] rounded-3xl text-black">
             <div className="flex flex-col items-center justify-center">
               <img
                 className="h-24 w-24"
@@ -99,7 +99,7 @@ function Support() {
           </div>
           </div>
 
-          <div className="h-[250px]   p-5 bg-[#cdea68] rounded-3xl text-black">
+          <div className="h-[250px] hover:bg-[#abd64a]  p-5 bg-[#cdea68] rounded-3xl text-black">
             <div className="flex flex-col items-center justify-center">
               <img
                 className="h-24 w-24"

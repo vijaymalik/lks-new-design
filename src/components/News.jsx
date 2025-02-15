@@ -9,7 +9,7 @@ const style = {
 const Modal = ({ handleClose }) => {
   return (
     <div className="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center">
-      <div className="bg-white p-5 rounded-lg w-1/3">
+      <div className="bg-white p-5 rounded-lg w-full mx-5 sm:w-1/2 md:w-1/3">
         <h2 className="text-lg font-bold mb-4">This is a Modal</h2>
         <p>Modal content goes here...</p>
         <button
